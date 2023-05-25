@@ -1,0 +1,336 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* NAV START */
+
+nav{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+
+}
+.right-menu{
+    display: flex;
+    justify-content: space-around;
+
+}
+.right-menu .claf a{
+    height: 50px;
+    width: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+nav .container .right-menu a img {
+    width: 144px;
+    height: 36px;
+    margin: auto;
+    padding: 5px;;
+}
+nav .container .right-menu .buttons1 a {
+    text-decoration: none;
+}
+.left-menu{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 130px;
+
+}
+.left-menu a{
+    cursor: pointer;
+    font-size: 20px;
+    color: #eee;
+    margin: auto;
+    padding-left: 50px;
+}
+.a-user{
+    padding-right: 50px;
+}
+nav .container .right-menu a {
+    cursor: pointer;
+    font-size: 15px;
+}
+.fa-bars{
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+.buttons1{
+    margin: auto;
+    padding: 20px;
+}
+.buttons1 a{
+    padding: 10px;
+    color: #eee;
+}
+
+
+
+/* NAV END */
+
+
+
+.first-sec{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+.fir-sec{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 70vw;
+}
+.fir1{
+    font-size: 300%;
+    width: 900px;
+    text-align: center;
+
+}
+.fir2{
+    font-size: 180%;
+    width: 900px;
+    text-align: center;
+    
+
+}
+.form{
+    width: 650px;
+     text-align: right; 
+     font-size: 20px;
+    padding: 20px;
+    margin-left: 94px;
+
+    
+
+}
+.ser-but{
+    color: #eee;
+    height: 45px;
+    width: 70px;
+    background-color: rgb(33, 186, 33);
+    border-color: rgb(33, 186, 33);
+    position: absolute;
+    left: 100px;
+    top:71%;
+}
+
+
+/* End section1 */
+
+
+
+.sec2{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+
+.ff1{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.ff2{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.contain2{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin: 20px;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.box p {
+    font-size: 250%;
+    color: #00ffff;
+}
+.second-sec{
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+/* WND SECTION2 */
+
+
+
+
+
+
+
+
+.inside1{
+    display: flex;
+    justify-content: space-between;
+}
+.but{
+    width: 100px;
+    height:50px;
+    background-color: white;
+    border-color: green;
+    color: green;
+    font-size: 15px;
+
+}
+
+.third-sec .th-1sec .inside1 .in2 p{
+    font-size: 30px;
+    
+}
+.inside2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}   
+.in3{
+    direction: rtl;
+    line-height: 25px;
+}
+.in3 i{
+    color: rgb(234, 200, 62);
+}
+.pp{
+    color: rgb(169, 19, 19);
+}
+
+.third-sec{
+    margin: 100px 100px;
+    
+}
+.thirddddd{
+     background-color: #eee;
+     padding-bottom: 30px;
+     padding-top: 25px;
+}
+/* END SECTION3 */
+
+
+
+
+
+
+
+.fourth-sec{
+    display: flex;
+    justify-content: space-around;
+}
+.in41{
+    direction: rtl;
+    line-height: 25px;
+}
+.in40{
+    direction: rtl;
+    line-height: 30px;
+}
+.fourrrr{
+    padding: 20px;
+    margin: 30px;
+}
+.in41 a {
+    text-decoration: none;
+    color: green;
+}
+
+
+
+/* 
+END SECTION4 */
+
+
+
+
+
+
+
+.fiv-sec{
+    display: flex;
+    justify-content: space-around;
+}
+.fiveeeee .fiv-sec .in52 a{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.fiveeeee{
+    background-color: #eee;
+    padding: 30px;
+}
+
+/* END SECTION5 */
+
+
+
+
+
+.sixxxxx .six-sec .in61 img{
+    width:200px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.in62{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 50px 0px;
+    padding: 50px 300px;
+}
+.item1{
+    direction: rtl;
+}
+.six-sec{
+    margin-top: 100px;
+}
+
+
